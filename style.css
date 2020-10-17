@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+}
+
+/* Title Section  */
+
+#title {
+  background-color: #9e1ef3f8;
+  color: white;
+}
+.nav-item {
+  text-align: justify;
+}
+.mybtn {
+  background-color: white;
+  height: 20px;
+  width: 30px;
+}
+#title h2 {
+  margin: 120px auto 20px;
+}
+h1 {
+  line-height: 1.5;
+  font-size: 4 em;
+}
+#title h3 {
+  padding-bottom: 120px;
+}
+.navbar-brand {
+  font-size: 1.7rem;
+}
+.nav-item {
+  font-size: 16px;
+  padding: 0 20px 0;
+}
+.icon {
+  margin-top: auto;
+  font-size: 15em;
+}
+
+/* Feature Section   */
+#feature {
+  margin: 20px 60px 0px;
+}
+.feature-box {
+  padding: 3% 2% 3%;
+}
+.icon2 {
+  color: #9e1ef3f8;
+  padding-bottom: 30px;
+}
+.icon2:hover {
+  color:#9e1ef3f8;
+}
+.feature-box h3 {
+  font-size: 2.5rem;
+}
+.feature-box p {
+  color: #555555;
+  text-align: justify;
+}
+/* Photos Section  */
+
+#photos-section {
+  background-color: #fff;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer Section  */
+
+footer i {
+  font-size: 1.5rem;
+  padding: 20px;
+  color: #9e1ef3f8;
+}
+
+/* Media Query Section  */
+
+@media (min-width: 900px) {
+  #photos {
+      margin : 1% 21% 2%;
+  }
+}
+@media (max-width: 900px) {
+  #title h2 {
+      font-size: 1.7rem;
+    margin-top: 40px;
+  }
+  #title h3 {
+      font-size: 1.3rem;
+    padding-bottom: 20px;
+  }
+.title-des {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .icon {
+    margin-top: 10px;
+    font-size: 13em;
+  }
+}
